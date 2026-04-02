@@ -876,3 +876,38 @@ P 2026-03-10 INZHUR_REIT 10.7728
 2026-03-29 Shopping
     expenses:food:groceries                86
     assets:bank:privat:universal
+2026-03-31 PRODURTY, LVIV
+    expenses:food:groceries  78.00 UAH
+    assets:bank:privat:universal
+
+2026-03-31 PRODURTY, LVIV
+    expenses:food:groceries  45.00 UAH
+    assets:bank:privat:universal
+
+2026-04-01 PEKARI BAKERY
+    expenses:food:groceries  67.00 UAH
+    assets:bank:privat:universal
+
+2026-04-01 LVIVSKI KRUASANY
+    expenses:food:dining     129.00 UAH
+    assets:bank:privat:universal
+
+2026-04-01 VAPORS (DMYTRO)
+    expenses:gifts:dmytro    119.00 UAH
+    assets:bank:privat:universal
+
+2026-04-01 NETLIUKH DMYTRO
+    assets:bank:privat:universal  120.00 UAH
+    expenses:gifts:dmytro   -120.00 UAH
+
+2026-04-01 MAGAZIN TOR-25
+    expenses:food:groceries  108.00 UAH
+    assets:bank:privat:universal
+
+2026-04-01 POKUPKA DISKONT
+    expenses:food:groceries  337.00 UAH
+    assets:bank:privat:universal
+
+2026-04-01 LVIVSKI KRUASANY
+    expenses:food:dining     64.00 UAH
+    assets:bank:privat:universal
