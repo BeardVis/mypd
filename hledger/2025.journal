@@ -1,0 +1,429 @@
+commodity 1 000.00 UAH
+commodity 1 000.00 INZHUR_MC
+commodity 1 000.00 INZHUR_SUPERMARKET
+commodity 1 000.00 INZHUR_OCEAN
+commodity 1 000.00 INZHUR_REIT
+D 1 000.00 UAH
+
+account assets:investments:inzhur:2001
+account assets:investments:inzhur:SUPERMARKET
+account assets:investments:inzhur:OCEAN
+account assets:investments:inzhur:REIT
+account assets:investments:inzhur:cash
+account assets:investments:inzhur:services
+account assets:bank:historical
+account equity:opening balances
+account expenses:taxes:dividends
+account income:dividends
+
+2025-01-01 * Opening Balances
+    assets:investments:inzhur:2001               450 INZHUR_MC
+    assets:investments:inzhur:SUPERMARKET        200 INZHUR_SUPERMARKET
+    assets:investments:inzhur:OCEAN              34 INZHUR_OCEAN
+    assets:bank:historical                       -9006.01 UAH
+    equity:opening balances
+
+P 2025-01-01 INZHUR_SUPERMARKET 1000
+P 2025-01-01 INZHUR_MC 1000
+P 2025-01-01 INZHUR_OCEAN 4067.92
+
+2025-01-09 * Inzhur Ocean dividends
+    assets:investments:inzhur:cash            1547.00
+    income:dividends
+
+2025-01-09 * Inzhur Ocean dividends tax
+    expenses:taxes:dividends                  162.44
+    assets:investments:inzhur:cash
+
+2025-01-09 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1384.56
+    assets:bank:historical
+
+2025-01-10 * Inzhur Supermarket dividends
+    assets:investments:inzhur:cash            2124.00
+    income:dividends
+
+2025-01-10 * Inzhur Supermarket dividends tax
+    expenses:taxes:dividends                  223.02
+    assets:investments:inzhur:cash
+
+2025-01-10 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1900.98
+    assets:bank:historical
+
+2025-01-23 * Inzhur 2001 dividends
+    assets:investments:inzhur:cash            3600.00
+    income:dividends
+
+2025-01-23 * Inzhur 2001 dividends tax
+    expenses:taxes:dividends                  378.00
+    assets:investments:inzhur:cash
+
+2025-01-23 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -3222.00
+    assets:bank:historical
+
+2025-02-10 * Inzhur Supermarket dividends
+    assets:investments:inzhur:cash            1950.00
+    income:dividends
+
+2025-02-10 * Inzhur Supermarket dividends tax
+    expenses:taxes:dividends                  204.75
+    assets:investments:inzhur:cash
+
+2025-02-10 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1745.25
+    assets:bank:historical
+
+2025-02-11 * Inzhur Ocean dividends
+    assets:investments:inzhur:cash            1647.30
+    income:dividends
+
+2025-02-11 * Inzhur Ocean dividends tax
+    expenses:taxes:dividends                  172.97
+    assets:investments:inzhur:cash
+
+2025-02-11 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1474.33
+    assets:bank:historical
+
+2025-02-21 * Inzhur 2001 dividends
+    assets:investments:inzhur:cash            3361.50
+    income:dividends
+
+2025-02-21 * Inzhur 2001 dividends tax
+    expenses:taxes:dividends                  470.62
+    assets:investments:inzhur:cash
+
+2025-02-21 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -2890.88
+    assets:bank:historical
+
+2025-03-10 * Inzhur Supermarket dividends
+    assets:investments:inzhur:cash            1822.00
+    income:dividends
+
+2025-03-10 * Inzhur Supermarket dividends tax
+    expenses:taxes:dividends                  255.08
+    assets:investments:inzhur:cash
+
+2025-03-10 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1566.92
+    assets:bank:historical
+
+2025-03-12 * Inzhur Ocean dividends
+    assets:investments:inzhur:cash            1431.40
+    income:dividends
+
+2025-03-12 * Inzhur Ocean dividends tax
+    expenses:taxes:dividends                  200.40
+    assets:investments:inzhur:cash
+
+2025-03-12 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1231.00
+    assets:bank:historical
+
+2025-03-24 * Inzhur 2001 dividends
+    assets:investments:inzhur:cash            3181.50
+    income:dividends
+
+2025-03-24 * Inzhur 2001 dividends tax
+    expenses:taxes:dividends                  445.42
+    assets:investments:inzhur:cash
+
+2025-03-24 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -2736.08
+    assets:bank:historical
+
+2025-04-03 * Inzhur Ocean dividends
+    assets:investments:inzhur:cash            1540.20
+    income:dividends
+
+2025-04-03 * Inzhur Ocean dividends tax
+    expenses:taxes:dividends                  215.63
+    assets:investments:inzhur:cash
+
+2025-04-03 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1324.57
+    assets:bank:historical
+
+2025-04-10 * Inzhur Supermarket dividends
+    assets:investments:inzhur:cash            1904.00
+    income:dividends
+
+2025-04-10 * Inzhur Supermarket dividends tax
+    expenses:taxes:dividends                  266.56
+    assets:investments:inzhur:cash
+
+2025-04-10 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1637.44
+    assets:bank:historical
+
+2025-04-22 * Inzhur 2001 dividends
+    assets:investments:inzhur:cash            3735.00
+    income:dividends
+
+2025-04-22 * Inzhur 2001 dividends tax
+    expenses:taxes:dividends                  522.90
+    assets:investments:inzhur:cash
+
+2025-04-22 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -3212.10
+    assets:bank:historical
+
+2025-05-09 * Inzhur Supermarket dividends
+    assets:investments:inzhur:cash            2000.00
+    income:dividends
+
+2025-05-09 * Inzhur Supermarket dividends tax
+    expenses:taxes:dividends                  280.00
+    assets:investments:inzhur:cash
+
+2025-05-09 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1720.00
+    assets:bank:historical
+
+2025-05-12 * Inzhur Ocean dividends
+    assets:investments:inzhur:cash            1564.68
+    income:dividends
+
+2025-05-12 * Inzhur Ocean dividends tax
+    expenses:taxes:dividends                  219.05
+    assets:investments:inzhur:cash
+
+2025-05-12 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1345.63
+    assets:bank:historical
+
+2025-05-23 * Inzhur 2001 dividends
+    assets:investments:inzhur:cash            3735.00
+    income:dividends
+
+2025-05-23 * Inzhur 2001 dividends tax
+    expenses:taxes:dividends                  522.90
+    assets:investments:inzhur:cash
+
+2025-05-23 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -3212.10
+    assets:bank:historical
+
+2025-06-05 * Inzhur Ocean dividends
+    assets:investments:inzhur:cash            1768.00
+    income:dividends
+
+2025-06-05 * Inzhur Ocean dividends tax
+    expenses:taxes:dividends                  247.52
+    assets:investments:inzhur:cash
+
+2025-06-05 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1520.48
+    assets:bank:historical
+
+2025-06-10 * Inzhur Supermarket dividends
+    assets:investments:inzhur:cash            1920.00
+    income:dividends
+
+2025-06-10 * Inzhur Supermarket dividends tax
+    expenses:taxes:dividends                  268.80
+    assets:investments:inzhur:cash
+
+2025-06-10 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1651.20
+    assets:bank:historical
+
+2025-06-20 * Inzhur 2001 dividends
+    assets:investments:inzhur:cash            3874.50
+    income:dividends
+
+2025-06-20 * Inzhur 2001 dividends tax
+    expenses:taxes:dividends                  542.44
+    assets:investments:inzhur:cash
+
+2025-06-20 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -3332.06
+    assets:bank:historical
+
+2025-07-09 * Inzhur Ocean dividends
+    assets:investments:inzhur:cash            1700.00
+    income:dividends
+
+2025-07-09 * Inzhur Ocean dividends tax
+    expenses:taxes:dividends                  238.00
+    assets:investments:inzhur:cash
+
+2025-07-09 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1462.00
+    assets:bank:historical
+
+2025-07-10 * Inzhur Supermarket dividends
+    assets:investments:inzhur:cash            1920.00
+    income:dividends
+
+2025-07-10 * Inzhur Supermarket dividends tax
+    expenses:taxes:dividends                  268.80
+    assets:investments:inzhur:cash
+
+2025-07-10 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -1651.20
+    assets:bank:historical
+
+2025-07-22 * Inzhur 2001 dividends
+    assets:investments:inzhur:cash            4275.00
+    income:dividends
+
+2025-07-22 * Inzhur 2001 dividends tax
+    expenses:taxes:dividends                  598.50
+    assets:investments:inzhur:cash
+
+2025-07-22 * Inzhur withdrawing money
+    assets:investments:inzhur:cash           -3676.50
+    assets:bank:historical
+
+2025-08-05 * Inzhur account replenishment
+    assets:investments:inzhur:cash           47883.03
+    assets:investments:inzhur:cash           92.43
+    assets:bank:historical
+
+2025-08-05 * Purchase of Inzhur Supermarket certificates
+    assets:investments:inzhur:SUPERMARKET                  39 INZHUR_SUPERMARKET
+    assets:investments:inzhur:cash                  -47975.46
+
+2025-08-08 * Inzhur Supermarket dividends
+    assets:investments:inzhur:cash            1934.00
+    income:dividends
+
+2025-08-08 * Inzhur Supermarket dividends tax
+    expenses:taxes:dividends                  270.76
+    assets:investments:inzhur:cash
+
+2025-08-12 * Inzhur Ocean dividends
+    assets:investments:inzhur:cash            1734.00
+    income:dividends
+
+2025-08-12 * Inzhur Ocean dividends tax
+    expenses:taxes:dividends                  242.76
+    assets:investments:inzhur:cash
+
+2025-08-18 * Purchase of Inzhur Supermarket certificates
+    assets:investments:inzhur:SUPERMARKET                  2 INZHUR_SUPERMARKET
+    assets:investments:inzhur:cash                  -2453.92
+
+2025-08-22 * Inzhur 2001 dividends
+    assets:investments:inzhur:cash            4297.50
+    income:dividends
+
+2025-08-22 * Inzhur 2001 dividends tax
+    expenses:taxes:dividends                  601.66
+    assets:investments:inzhur:cash
+
+2025-08-25 * Purchase of Inzhur OCEAN certificates
+    assets:investments:inzhur:OCEAN                  1 INZHUR_OCEAN
+    assets:investments:inzhur:cash                  -4160.50
+
+2025-09-01 * Inzhur 2001 dividends
+    assets:investments:inzhur:cash            4275.00
+    income:dividends
+
+2025-09-01 * Inzhur 2001 dividends tax
+    expenses:taxes:dividends                  598.50
+    assets:investments:inzhur:cash
+
+2025-09-01 * Inzhur Supermarket dividends
+    assets:investments:inzhur:cash            2303.96
+    income:dividends
+
+2025-09-01 * Inzhur Supermarket dividends tax
+    expenses:taxes:dividends                  322.56
+    assets:investments:inzhur:cash
+
+2025-09-01 * Inzhur Ocean dividends
+    assets:investments:inzhur:cash            1785.00
+    income:dividends
+
+2025-09-01 * Inzhur Ocean dividends tax
+    expenses:taxes:dividends                  249.90
+    assets:investments:inzhur:cash
+
+2025-09-02 * Conversion of Inzhur Supermarket certificates to Inzhur REIT certificates (selling Supermarket certificates)
+    assets:investments:inzhur:cash                     291120.77
+    assets:investments:inzhur:SUPERMARKET              -241 INZHUR_SUPERMARKET
+
+2025-09-02 * Conversion of Inzhur 2001 certificates to Inzhur REIT certificates (selling 2001 certificates)
+    assets:investments:inzhur:cash              601218.00
+    assets:investments:inzhur:2001              -450 INZHUR_MC
+
+2025-09-02 * Conversion of Inzhur Supermarket & 2001 certificates to Inzhur REIT certificates (buying REIT certificates)
+    assets:investments:inzhur:cash                     -892350.00
+    assets:investments:inzhur:REIT                      89235 INZHUR_REIT
+
+2025-09-04 * Conversion of Inzhur Ocean certificates to Inzhur REIT certificates
+    assets:investments:inzhur:cash              143107.30
+    assets:investments:inzhur:OCEAN              -35 INZHUR_OCEAN
+
+2025-09-04 * Conversion of Inzhur Ocean certificates to Inzhur REIT certificates (buying REIT certificates)
+    assets:investments:inzhur:REIT                      14311 INZHUR_REIT
+    assets:investments:inzhur:cash                     -143110.00
+
+2025-09-09 * Purchase of Inzhur REIT certificates
+    assets:investments:inzhur:REIT                  734 INZHUR_REIT
+    assets:investments:inzhur:cash                  -7413.40
+
+2025-10-02 * Inzhur REIT dividends
+    assets:investments:inzhur:cash            8707.38
+    income:dividends
+
+2025-10-02 * Inzhur REIT dividends tax
+    expenses:taxes:dividends                  1219.03
+    assets:investments:inzhur:cash
+
+2025-10-02 * Inzhur withdrawing money
+    assets:bank:historical                  7488.35
+    assets:investments:inzhur:cash
+
+2025-10-16 * Inzhur referral bonus
+    assets:investments:inzhur:cash           5.10
+    assets:investments:inzhur:services
+
+2025-10-16 * Inzhur bonus tax
+    expenses:taxes:dividends                  1.18
+    assets:investments:inzhur:cash
+
+2025-11-10 * Inzhur REIT dividends
+    assets:investments:inzhur:cash            8884.66
+    income:dividends
+
+2025-11-10 * Inzhur REIT dividends tax
+    expenses:taxes:dividends                  1243.85
+    assets:investments:inzhur:cash
+
+2025-11-10 * Inzhur withdrawing money
+    assets:bank:historical                  7640.81
+    assets:investments:inzhur:cash
+
+2025-11-17 * Inzhur account replenishment
+    assets:investments:inzhur:cash           2044.97
+    assets:bank:historical
+
+2025-11-17 * Purchase of Inzhur REIT certificates
+    assets:investments:inzhur:REIT                  200 INZHUR_REIT
+    assets:investments:inzhur:cash                  -2050.46
+
+2025-12-10 * Inzhur REIT dividends
+    assets:investments:inzhur:cash            8703.18
+    income:dividends
+
+2025-12-10 * Inzhur REIT dividends tax
+    expenses:taxes:dividends                  1218.45
+    assets:investments:inzhur:cash
+
+2025-12-10 * Purchase of Inzhur REIT certificates
+    assets:investments:inzhur:REIT                 738 INZHUR_REIT
+    assets:investments:inzhur:cash                  -7475.13
+
+2025-12-31 closing balances  ; clopen:2026
+    assets:investments:inzhur:SUPERMARKET     0 INZHUR_SUPERMARKET = 0 INZHUR_SUPERMARKET
+    assets:investments:inzhur:OCEAN                 0 INZHUR_OCEAN = 0 INZHUR_OCEAN
+    assets:investments:inzhur:REIT           -105 218. INZHUR_REIT = 0 INZHUR_REIT
+    assets:investments:inzhur:cash                       -9.60 UAH = 0.00 UAH
+    assets:investments:inzhur:services                    5.10 UAH = 0.00 UAH
+    equity:opening/closing balances

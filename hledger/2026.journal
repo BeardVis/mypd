@@ -1,0 +1,878 @@
+; journal created 2026-02-24 by hledger
+
+commodity 1 000.00 UAH
+commodity 1 000.00 USD
+commodity 1 000.00 EUR
+commodity 1 000.00 PLN
+commodity 1 000.00 INZHUR_REIT
+tag clopen
+
+D 1 000.00 UAH
+
+2026-01-01 opening balances  ; clopen:2026
+    assets:investments:inzhur:REIT        105 218. INZHUR_REIT = 105 218. INZHUR_REIT
+    assets:investments:inzhur:cash        9.60 UAH = 9.60 UAH
+    assets:bank:privat:universal          845.24 UAH = 845.24 UAH
+    assets:bank:privat:salary             284.20 UAH = 284.20 UAH
+    assets:bank:privat:inter              43.23 UAH = 43.23 UAH
+    assets:bank:mono:black                28.93 UAH = 28.93 UAH
+    assets:cash:wallet                    1159.00 UAH = 1159.00 UAH
+    assets:cash:currency                    200.00 USD = 200.00 USD
+    assets:cash:currency                    900.00 EUR = 900.00 EUR
+    assets:cash:currency                    130.00 PLN = 130.00 PLN
+    equity:opening/closing balances
+
+P 2026-01-01 INZHUR_REIT 10.40
+
+2026-01-01 * Youtube premium
+    expenses:fixed:subs:media                149.00
+    assets:bank:privat:universal            -149.00
+
+2026-01-01 * EVA
+    expenses:health:beauty                222.09
+    assets:bank:privat:universal         -222.09
+
+2026-01-02 * Shopping
+    expenses:food:groceries                  137
+    assets:bank:privat:universal            -137
+
+2026-01-04 * SIM23
+    expenses:food:groceries                91.32
+    assets:bank:privat:universal          -91.32
+
+2026-01-04 * Ticket
+    expenses:transport:public                 68
+    assets:bank:privat:universal             -68
+
+2026-01-04 * SIM23
+    expenses:food:groceries                  175
+    assets:bank:privat:universal            -175
+
+2026-01-04 * Rukavychka
+    expenses:food:groceries                24.50
+    assets:bank:privat:universal          -24.50
+
+2026-01-04 * Transfer
+    assets:bank:mono:black                    20
+    expenses:taxes:transfer                    5
+    assets:bank:privat:universal             -25
+
+2026-01-08 * Transfer
+    assets:bank:privat:inter                  25
+    assets:bank:privat:universal             -25
+
+2026-01-04 * Water
+    expenses:food:groceries              38
+    assets:bank:mono:black              -38
+
+2026-01-04 * Transfer
+    assets:bank:privat:universal             284
+    assets:bank:privat:salary               -284
+
+2026-01-09 * A1587
+    assets:bank:privat:salary        21512.53
+    income:salary:army              -21512.53
+
+2026-01-09 * Transfer
+    assets:bank:privat:inter                1900
+    assets:bank:privat:salary              -1900
+
+2026-01-09 * Transfer
+    assets:bank:mono:black               1000.00
+    expenses:taxes:transfer                 5.00
+    assets:bank:privat:salary           -1005.00
+
+2026-01-10 * Flat rent
+    expenses:home:rent                   7000
+    expenses:home:rent                   2000
+    assets:bank:privat:salary           -9000
+
+2026-01-10 * Transfer
+    assets:bank:privat:universal            1000.00
+    assets:bank:privat:salary              -1000.00
+
+2026-01-11 * Transfer
+    assets:bank:privat:universal            2000
+    assets:bank:privat:salary              -2000
+
+2026-01-12 * Inzhur REIT dividends
+    assets:investments:inzhur:cash            8764.66
+    income:dividends
+
+2026-01-12 * Inzhur REIT dividends
+    expenses:taxes:dividends                  1227.05
+    assets:investments:inzhur:cash
+
+2026-01-12 * Inzhur REIT dividends
+    assets:investments:inzhur:REIT                  717 INZHUR_REIT
+    assets:investments:inzhur:cash                  -7545.71
+
+P 2026-01-12 INZHUR_REIT 10.52
+
+2026-01-17 * Transfer
+    assets:bank:privat:universal            1000.00
+    assets:bank:privat:universal            2000.00
+    assets:bank:privat:salary              -3000.00
+
+2026-01-22 * Transfer
+    assets:bank:privat:universal         3607.73
+    assets:bank:privat:salary           -3607.73
+
+2026-02-05 * A1587
+    assets:bank:privat:salary        21475.31
+    income:salary:army              -21475.31
+
+2026-02-05 * Transfer
+    assets:bank:privat:inter             1900
+    assets:bank:privat:salary           -1900
+
+2026-02-05 * Transfer
+    assets:bank:mono:black               1500
+    expenses:taxes:transfer               7.5
+    assets:bank:privat:salary         -1507.5
+
+2026-02-05 * Flat rent
+    expenses:home:rent                7035.18
+    assets:bank:privat:salary        -7035.18
+
+2026-02-07 * Transfer
+    assets:bank:privat:universal           10000
+    assets:bank:privat:salary             -10000
+
+2026-01-09 Vacuum cleaner
+    expenses:household:tools               833.15
+    assets:bank:mono:black                -833.15
+
+2026-01-19 Water
+    expenses:food:groceries              39
+    assets:bank:mono:black              -39
+
+2026-01-26 Protein
+    expenses:health:fitness:supplements            1454
+    liabilities:loans:mono_installments           -1454
+
+2026-01-26 Installment payment
+    liabilities:loans:mono_installments             484.67
+    assets:bank:mono:black                         -484.67
+
+2026-01-29 Water
+    expenses:food:groceries              39
+    assets:bank:mono:black              -39
+
+2026-02-10 Installment payment
+    liabilities:loans:mono_installments             969.33
+    assets:bank:mono:black                         -969.33
+
+2026-01-08 Android game
+    expeses:leisure:games:digital           64.99
+    assets:bank:privat:inter               -64.99
+
+2026-01-10 Microsoft
+    expenses:fixed:subs:soft             269
+    assets:bank:privat:inter            -269
+
+2026-01-11 Vodafone
+    expenses:fixed:cell                250
+    assets:bank:privat:inter          -250
+
+2026-01-14 Netflix
+    expenses:fixed:subs:media           380.2
+    assets:bank:privat:inter           -380.2
+
+2026-01-18 Yazio
+    expenses:fixed:subs:tools             499
+    assets:bank:privat:inter             -499
+
+2026-01-21 NokkoPrint
+    expenses:soft:tools                  150
+    assets:bank:privat:inter            -150
+
+2026-02-09 Upwork
+    expenses:services:features          272.73
+    expenses:services:features           77.92
+    assets:bank:privat:inter           -350.65
+
+2026-02-09 Google One
+    expenses:fixed:subs:ai            114.99
+    assets:bank:privat:inter         -114.99
+
+2026-02-10 Microsoft
+    expenses:fixed:subs:soft             269
+    assets:bank:privat:inter            -269
+
+2026-02-10 * Inzhur REIT dividends
+    assets:investments:inzhur:cash            8824.39
+    income:dividends
+
+2026-02-10 * Inzhur REIT dividends
+    expenses:taxes:dividends                  1235.42
+    assets:investments:inzhur:cash
+
+2026-02-10 * Inzhur REIT dividends
+    assets:investments:inzhur:REIT                  720 INZHUR_REIT
+    assets:investments:inzhur:cash                  -7588.22
+
+P 2026-02-10 INZHUR_REIT 10.54
+
+2026-02-11 Vodafone
+    expenses:fixed:cell                250
+    assets:bank:privat:inter             -250
+
+2026-02-14 Netflix
+    expenses:fixed:subs:media          386.08
+    assets:bank:privat:inter          -386.08
+
+2026-01-10 PIZZA HOT
+    expenses:food:dining                     358
+    assets:bank:privat:universal            -358
+
+2026-01-10 Shopping
+    expenses:food:groceries                   58
+    assets:bank:privat:universal             -58
+
+2026-01-11 Sweet.tv
+    expenses:fixed:subs:media                  1
+    assets:bank:privat:universal              -1
+
+2026-01-11 Silpo
+    expenses:food:groceries               324.96
+    assets:bank:privat:universal         -324.96
+
+2026-01-11 Epicentr
+    expenses:household:tools              515.22
+    assets:bank:privat:universal         -515.22
+
+2026-01-11 Ticket
+    expenses:transport:public                 34
+    assets:bank:privat:universal             -34
+
+2026-01-11 Shopping
+    expenses:food:groceries                   34
+    assets:bank:privat:universal             -34
+
+2026-01-12 Epicentr
+    expenses:household:tools              365.66
+    assets:bank:privat:universal         -365.66
+
+2026-01-13 Shopping
+    expenses:food:groceries                105.5
+    assets:bank:privat:universal          -105.5
+
+2026-01-14 Shopping
+    expenses:food:groceries               517.83
+    assets:bank:privat:universal         -517.83
+
+2026-01-16 Shopping
+    expenses:food:groceries                  392
+    assets:bank:privat:universal            -392
+
+2026-01-17 Insurance
+    expenses:fixed:insurance                  50
+    assets:bank:privat:universal             -50
+
+2026-01-17 SIM23
+    expenses:food:groceries                  274
+    assets:bank:privat:universal            -274
+
+2026-01-17 Bart barbershop
+    expenses:personal:appearance             400
+    assets:bank:privat:universal            -400
+
+2026-01-17 Epicentr
+    expenses:household:tools              540.85
+    expenses:household:tools                 165
+    assets:bank:privat:universal         -705.85
+
+2026-01-17 SIM23
+    expenses:food:groceries                  395
+    assets:bank:privat:universal            -395
+
+2026-01-19 Shopping
+    expenses:food:groceries                179.5
+    assets:bank:privat:universal          -179.5
+
+2026-01-20 Epicentr
+    expenses:household:tools              621.74
+    expenses:household:tools              185.41
+    expenses:household:tools              149.42
+    assets:bank:privat:universal         -956.57
+
+2026-01-20 Shopping
+    expenses:food:groceries                  222
+    assets:bank:privat:universal            -222
+
+2026-01-22 Lviv Croisants
+    expenses:food:dining                     206
+    expenses:food:dining                     177
+    assets:bank:privat:universal            -383
+
+2026-01-22 Ticket
+    expenses:transport:public                 34
+    assets:bank:privat:universal             -34
+
+2026-01-22 Epicentr
+    expenses:household:tools               876.7
+    assets:bank:privat:universal          -876.7
+
+2026-01-24 Epicentr
+    expenses:household:tools               477.2
+    assets:bank:privat:universal          -477.2
+
+2026-01-25 SIM23
+    expenses:food:groceries               112.32
+    assets:bank:privat:universal         -112.32
+
+2026-01-25 Ticket
+    expenses:transport:public                 68
+    assets:bank:privat:universal             -68
+
+2026-01-25 Dining
+    expenses:food:dining                     369
+    assets:bank:privat:universal            -369
+
+2026-01-25 Shopping
+    expenses:food:groceries                109.3
+    assets:bank:privat:universal          -109.3
+
+2026-01-26 Epicentr
+    expenses:household:tools              497.09
+    assets:bank:privat:universal         -497.09
+
+2026-01-26 Pharmacy
+    assets:receivable:chrystyna              361
+    assets:bank:privat:universal            -361
+
+2026-01-26 Repayment
+    assets:bank:privat:universal             361
+    assets:receivable:chrystyna             -361
+
+2026-01-26 Transfer
+    assets:bank:mono:black                   400
+    expenses:taxes:transfer                    5
+    assets:bank:privat:universal            -405
+
+2026-01-26 Money gift on protein
+    assets:bank:privat:universal            1400
+    income:gifts                           -1400
+
+2026-01-26 NovaPost
+    expenses:services:delivery             83.77
+    assets:bank:privat:universal          -83.77
+
+2026-01-28 insurance
+    expenses:fixed:insurance                  50
+    assets:bank:privat:universal             -50
+
+2026-01-28 Shopping
+    expenses:food:groceries               130.56
+    assets:bank:privat:universal         -130.56
+
+2026-01-28 PIZZA HOT
+    expenses:food:dining                     199
+    assets:bank:privat:universal            -199
+
+2026-01-28 ATB
+    expenses:food:groceries                  246
+    assets:bank:privat:universal            -246
+
+2026-01-29 Transfer
+    assets:bank:privat:universal            1000.00
+    assets:cash:wallet                     -1000.00
+
+2026-01-29 Shopping
+    expenses:food:groceries                225.6
+    assets:bank:privat:universal          -225.6
+
+2026-01-29 EVA
+    expenses:health:beauty                 79.49
+    assets:bank:privat:universal          -79.49
+
+2026-01-29 ATB
+    expenses:food:groceries                 46.4
+    assets:bank:privat:universal           -46.4
+
+2026-01-30 Dining
+    expenses:food:dining                      85
+    assets:bank:privat:universal             -85
+
+2026-01-31 Shopping
+    expenses:food:groceries               251.78
+    assets:bank:privat:universal         -251.78
+
+2026-01-28 SILPO
+    expenses:food:groceries               404.19
+    assets:bank:privat:universal         -404.19
+
+2026-02-01 Youtube premium
+    expenses:fixed:subs:media                149
+    assets:bank:privat:universal            -149
+
+2026-02-02 Shopping
+    expenses:food:groceries               434.28
+    assets:bank:privat:universal         -434.28
+
+2026-02-03 Signal charity
+    expenses:charity:services                120
+    assets:bank:privat:universal            -120
+
+2026-02-06 Shopping
+    expenses:food:groceries               217.96
+    assets:bank:privat:universal         -217.96
+
+2026-02-07 Dininig
+    expenses:food:dining                  200.24
+    assets:bank:privat:universal         -200.24
+
+2026-02-07 Shopping
+    expenses:food:groceries               276.09
+    assets:bank:privat:universal         -276.09
+
+2026-02-10 Keyboard for the DELL Laptop
+    expenses:tech:peripherals            1074.75
+    assets:bank:privat:universal        -1074.75
+
+2026-02-10 Shopping
+    expenses:food:groceries               353.31
+    assets:bank:privat:universal         -353.31
+
+2026-02-10 Dining
+    expenses:food:dining                 1206.03
+    assets:bank:privat:universal        -1206.03
+
+2026-02-12 UPS
+    assets:receivable:donchenko_h         1919.76
+    assets:bank:privat:universal         -1919.76
+
+2026-02-13 UPS
+    assets:receivable:donchenko_h          114.45
+    assets:bank:privat:universal          -114.45
+
+2026-02-14 Ticket
+    expenses:transport:public              55.01
+    assets:bank:privat:universal          -55.01
+
+2026-02-14 Storage for the bag
+    expenses:services:features            366.75
+    assets:bank:privat:universal         -366.75
+
+2026-02-14 dining
+    expenses:food:dining                 1259.17
+    expenses:food:dining                  611.25
+    assets:bank:privat:universal        -1870.42
+
+2026-02-14 Gift - toy
+    expenses:gifts:toys                   349.39
+    assets:bank:privat:universal         -349.39
+
+2026-02-14 Repayment
+    assets:bank:privat:universal             2000
+    expenses:gifts:small_favors             34.21
+    assets:receivable:donchenko_h        -2034.21
+
+2026-02-14 Beauty
+    expenses:health:beauty                183.25
+    assets:bank:privat:universal         -183.25
+
+2026-02-14 Dining
+    expenses:food:dining                  268.22
+    assets:bank:privat:universal         -268.22
+
+2026-02-17 Insurance
+    expenses:fixed:insurance                  50
+    assets:bank:privat:universal             -50
+
+2026-02-19 Shopping
+    expenses:food:groceries               401.22
+    assets:bank:privat:universal         -401.22
+
+2026-02-20 Game
+    expenses:leisure:games:digital         1250.43  ; Resident evil
+    expenses:leisure:games:digital         113.00   ; Sherlok
+    assets:bank:privat:universal          -1363.43
+
+2026-02-27 Shopping
+    expenses:food:groceries               141.83  ; Beer (1L), energy drink (0.25L)
+    assets:bank:privat:universal         -141.83
+2026-02-28 Insurance
+    expenses:fixed:insurance              50 UAH
+    assets:bank:privat:universal         -50 UAH
+
+2026-02-28 Shopping
+    expenses:food:groceries               291.96
+    assets:bank:privat:universal         -291.96
+
+2026-02-28 Shopping
+    expenses:food:groceries               227.36
+    assets:bank:privat:universal         -227.36
+
+2026-03-01 Water
+    expenses:food:groceries          39 UAH
+    assets:bank:mono:black          -39 UAH
+
+2026-03-01 Shopping
+    expenses:food:groceries               849.66
+    assets:bank:privat:universal         -849.66
+
+2026-03-02 Shopping
+    expenses:food:groceries               189.89
+    assets:bank:privat:universal         -189.89
+
+2026-03-03 Transfer
+    assets:bank:privat:universal         1032.63
+    assets:bank:privat:salary           -1032.63
+
+2026-03-03 Birhday gift
+    expenses:gifts:money                  301.51  ; Shpyrko BD
+    assets:bank:privat:universal         -301.51
+
+2026-03-03 Pizza
+    expenses:food:dining                     361
+    assets:bank:privat:universal            -361
+
+2026-03-03 Birthday gift (book)
+    expenses:gifts                     451  ; Christina's BD
+    assets:bank:mono:black            -451
+
+2026-03-01 Youtube premium
+    expenses:fixed:subs:media         149 UAH
+    assets:bank:privat:inter         -149 UAH
+
+2026-03-04 A1587
+    assets:bank:privat:salary        21475.31
+    income:salary:army              -21475.31
+
+2026-03-04 Transfer
+    assets:bank:privat:inter            1900
+    assets:bank:privat:salary            -1900
+
+2026-03-04 Transfer
+    assets:bank:mono:black              1400
+    expenses:taxes:transfer             7
+    assets:bank:privat:salary
+
+2026-03-04 Birhday gift (Headphones)
+    expenses:gifts                                 7974.14  ; Christina's BD
+    assets:bank:mono:black                         -1329.02
+    liabilities:loans:mono_installments
+
+2026-03-04 Shopping
+    expenses:food:groceries               360.36
+    assets:bank:privat:universal         -360.36
+
+2026-03-04 Staf
+    expenses:gifts                    239.58
+    expenses:tools                    127.99
+    assets:bank:privat:inter         -367.57
+
+2026-03-05 Delivery
+    expenses:services:delivery               137
+    assets:bank:privat:universal            -137
+
+2026-03-06 Transfer
+    assets:cash:wallet                   7000
+    assets:bank:privat:salary            -7000
+
+2026-03-06 Flat rent
+    expenses:home:rent            7000
+    assets:cash:wallet           -7000
+
+P 2026-03-06 USD 43.45
+P 2026-03-06 EUR 50.44
+P 2026-03-06 PLN 11.81
+
+2026-03-07 Transfer
+    assets:bank:privat:universal            1000
+    assets:bank:privat:salary              -1000
+
+2026-03-07 Shopping
+    expenses:food:groceries               884.89  ; evening with Oleksii
+    assets:bank:privat:universal         -884.89
+
+2026-03-07 Dinner
+    expenses:food:dining                  320  ; Kebab
+    assets:bank:privat:salary            -320
+
+2026-03-08 Google One
+    expenses:fixed:subs:ai            114.99
+    assets:bank:privat:inter         -114.99
+
+2026-03-10 Microsoft
+    expenses:fixed:subs:soft         269 UAH
+    assets:bank:privat:inter        -269 UAH
+
+2026-03-10 Dudych gift for BD
+    expenses:gifts:money                  310
+    expenses:taxes:transfer               1.56
+    assets:bank:privat:salary
+
+2026-03-10 Water
+    expenses:food:groceries          39 UAH
+    assets:bank:mono:black          -39 UAH
+
+2026-03-10 * Inzhur REIT dividends
+    assets:investments:inzhur:cash            8927.02
+    income:dividends
+
+2026-03-10 * Inzhur REIT dividends
+    expenses:taxes:dividends                  1249.78
+    assets:investments:inzhur:cash
+
+2026-03-10 * Inzhur REIT dividends
+    assets:investments:inzhur:REIT                  719 INZHUR_REIT
+    assets:investments:inzhur:cash                  -7676.55
+
+P 2026-03-10 INZHUR_REIT 10.7728
+2026-03-10 Shopping
+    expenses:food:groceries                82.59
+    assets:bank:privat:universal          -82.59
+
+2026-03-11 Tools
+    expenses:household:tools                 107
+    assets:bank:privat:universal            -107
+
+2026-03-11 Vodafone
+    expenses:fixed:cell                  320
+    assets:bank:privat:inter            -320
+
+2026-03-12 Transfer
+    assets:bank:privat:universal            5000
+    assets:bank:privat:salary              -5000
+
+2026-03-12 Shopping
+    expenses:food:groceries               186.10  ; SIM23
+    assets:bank:privat:universal         -186.10
+
+2026-03-12 NovaPost
+    expenses:services:delivery             155
+    assets:bank:privat:universal
+
+2026-03-12 Taxi
+    expenses:transport:taxi                 299
+    assets:bank:privat:universal
+
+2026-03-14 Netflix
+    expenses:fixed:subs:media           382.14
+    assets:bank:privat:inter           -382.14
+    
+2026-03-15 Ticket
+    expenses:transport:public              170
+    assets:bank:privat:universal
+
+2026-03-15 Shopping
+    expenses:food:groceries               67  ; SIM23
+    assets:bank:privat:universal
+
+2026-03-15 Shopping
+    expenses:food:groceries               98  ; SIM23
+    assets:bank:privat:universal
+
+2026-03-10 Dudych gift for BD
+    expenses:gifts:money                  100 PLN
+    assets:cash:currency
+
+2026-03-16 Pharmacy
+    assets:receivable:chrystyna              370.3
+    assets:bank:privat:universal
+
+2026-03-16 Pharmacy
+    expenses:health:pharmacy                 370.3
+    assets:receivable:chrystyna
+
+2026-03-16 Dantist
+    expenses:health:dantist                 1800
+    assets:bank:privat:universal
+
+2026-03-16 Dining
+    expenses:food:dining                  87
+    assets:bank:privat:universal
+
+2026-03-16 Barbershop
+    expenses:personal:appearance             700
+    assets:bank:privat:universal
+
+2026-03-16 Dining
+    expenses:food:dining                  240  ; Hinkalniya
+    assets:bank:privat:universal
+
+2026-03-16 Gift (book)
+    expenses:gifts                     380  ; book for Christina's
+    assets:bank:privat:universal
+
+2026-03-16 Shopping
+    expenses:food:groceries               110
+    assets:bank:privat:universal
+
+2026-03-17 Ticket
+    expenses:transport:public              20  ; mobile account top-up for a ticket
+    expenses:taxes:transfer                4
+    assets:bank:privat:universal
+
+2026-03-17 Insurance
+    expenses:fixed:insurance                  50
+    assets:bank:privat:universal             -50
+
+2026-03-18 BD Gift for Christina
+    expenses:gifts:toys                   158.70
+    assets:bank:privat:universal         -158.70
+
+2026-03-18 SIM23
+    expenses:food:groceries                   98
+    assets:bank:privat:universal             -98
+
+2026-03-18 Transfer
+    assets:bank:privat:universal         4536.75
+    assets:bank:privat:salary           -4536.75
+
+2026-03-18 Dantist 3d KT
+    expenses:health:dantist                  500
+    assets:bank:privat:universal            -500
+
+2026-03-18 Shopping
+    expenses:food:groceries                64.90
+    assets:bank:privat:universal          -64.90
+
+2026-03-18 Dantist
+    expenses:health:dantist                 1900
+    assets:bank:privat:universal           -1900
+
+2026-03-18 Pharmacy
+    expenses:health:pharmacy               231.2
+    assets:bank:privat:universal          -231.2
+
+2026-03-18 Dinning. IQ Pizza
+    expenses:food:dining                     397
+    assets:bank:privat:universal            -397
+
+2026-03-18 Shopping
+    expenses:food:groceries                   76
+    assets:bank:privat:universal             -76
+
+2026-03-18 Shopping
+    expenses:food:groceries                   90
+    assets:bank:privat:universal             -90
+
+2026-03-19 Shopping
+    expenses:food:groceries                   23
+    assets:bank:privat:universal             -23
+
+2026-03-20 Game
+    expenses:leisure:games:digital              65
+    assets:bank:privat:universal               -65
+
+2026-03-21 SIM23
+    expenses:food:groceries                  100
+    assets:bank:privat:universal            -100
+
+2026-03-21 Shopping (Auchan)
+    expenses:food:groceries               230.77
+    assets:bank:privat:universal         -230.77
+
+2026-03-21 Dinning. IQ Pizza
+    expenses:food:dining                     179
+    assets:bank:privat:universal            -179
+
+2026-03-22 Water
+    expenses:food:groceries          39 UAH
+    assets:bank:mono:black          -39 UAH
+
+2026-03-23 NovaPost
+    expenses:services:delivery                72
+    assets:bank:privat:universal             -72
+
+2026-01-26 Shopping (cigarettes for Shpyrko)
+    assets:receivable:other              144.5
+    assets:bank:privat:universal
+
+2026-01-26 Return. cigarettes for Shpyrko
+    assets:cash:wallet                     155.5
+    assets:receivable:other                -144.5
+    income:gifts                           -11  ;; Shpyrko returned 155.5, but 11 is a gift for me
+
+2026-03-24 Sim23
+    expenses:food:groceries              100 UAH
+    assets:bank:privat:universal        -100 UAH
+
+2026-03-24 Shopping
+    expenses:food:groceries                  227
+    assets:bank:privat:universal            -227
+
+2026-03-25 Shopping
+    expenses:food:groceries                160.8
+    assets:bank:privat:universal          -160.8
+
+2026-03-25 Dinning
+    expenses:food:dining                      67
+    assets:bank:privat:universal             -67
+
+2026-03-25 Transfer
+    assets:bank:mono:black                 900
+    expenses:taxes:transfer                5
+    assets:bank:privat:inter
+
+2026-03-25 Protein
+    expenses:health:fitness:supplements                                 3489
+    assets:bank:mono:black                         -872.25
+    liabilities:loans:mono_installments
+
+2026-03-26 Dinning
+    expenses:food:dining                      60
+    assets:bank:privat:universal
+
+2026-03-26 Transfer
+    assets:bank:privat:universal            100
+    assets:bank:privat:inter
+
+2026-03-26 NovaPost
+    expenses:services:delivery             147.45
+    assets:bank:privat:universal
+
+2026-03-27 Water
+    expenses:food:groceries              39
+    assets:bank:mono:black              -39
+
+2026-03-28 Insurance
+    expenses:fixed:insurance                  50
+    assets:bank:privat:universal             -50
+
+2026-03-28 Borrowing money from Samson
+    assets:bank:privat:universal                   3000
+    liabilities:borrowings:samson
+
+2026-03-28 Shopping
+    expenses:food:groceries                134.8
+    liabilities:loans:pumb_installments
+
+2026-03-28 Dinning. IQ Pizza
+    expenses:food:dining                      344
+    liabilities:loans:pumb_installments
+
+2026-03-28 Installment payment
+    liabilities:loans:pumb_installments             478
+    expenses:taxes:transfer                         5
+    assets:bank:privat:universal
+
+2026-03-29 Transfer
+    assets:bank:mono:black                     1335
+    expenses:taxes:transfer                    6.67
+    assets:bank:privat:universal
+
+2026-03-29 Installment payment
+    assets:bank:mono:black                         -1329.02
+    liabilities:loans:mono_installments
+
+2026-03-29 Dinning
+    expenses:food:dining                     430
+    assets:receivable:chrystyna              315
+    liabilities:loans:pumb_installments
+
+2026-01-29 Repayment
+    assets:bank:privat:universal            315
+    assets:receivable:chrystyna
+
+2026-03-29 Shopping
+    expenses:food:groceries                204
+    assets:bank:privat:universal
+
+2026-03-29 Shopping
+    expenses:food:groceries                86
+    assets:bank:privat:universal
