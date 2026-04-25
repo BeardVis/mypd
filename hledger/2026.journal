@@ -854,7 +854,7 @@ P 2026-03-10 INZHUR_REIT 10.7728
 2026-03-29 Transfer
     assets:bank:mono:black                     1335
     expenses:taxes:transfer                    6.67
-    assets:bank:privat:universal
+    assets:bank:privat:universal               -1341.67
 
 2026-03-29 Installment payment
     assets:bank:mono:black                         -1329.02
@@ -863,9 +863,9 @@ P 2026-03-10 INZHUR_REIT 10.7728
 2026-03-29 Dinning
     expenses:food:dining                     430
     assets:receivable:chrystyna              315
-    liabilities:loans:pumb_installments
+    liabilities:loans:pumb_installments      -745
 
-2026-01-29 Repayment
+2026-03-29 Repayment
     assets:bank:privat:universal            315
     assets:receivable:chrystyna
 
@@ -876,38 +876,409 @@ P 2026-03-10 INZHUR_REIT 10.7728
 2026-03-29 Shopping
     expenses:food:groceries                86
     assets:bank:privat:universal
-2026-03-31 PRODURTY, LVIV
-    expenses:food:groceries  78.00 UAH
+
+2026-03-31 Shopping
+    expenses:food:groceries                45
     assets:bank:privat:universal
 
-2026-03-31 PRODURTY, LVIV
-    expenses:food:groceries  45.00 UAH
+2026-03-31 Shopping
+    expenses:food:groceries                78
     assets:bank:privat:universal
 
-2026-04-01 PEKARI BAKERY
-    expenses:food:groceries  67.00 UAH
+2026-04-01 * Youtube premium
+    expenses:fixed:subs:media                149.00
+    assets:bank:privat:inter                -149.00
+
+2026-04-01 Coffee
+    expenses:food:dining                     64  ; Lviv Croisants
     assets:bank:privat:universal
 
-2026-04-01 LVIVSKI KRUASANY
-    expenses:food:dining     129.00 UAH
+2026-04-01 Avrora
+    expenses:household:tools              337
     assets:bank:privat:universal
 
-2026-04-01 VAPORS (DMYTRO)
-    expenses:gifts:dmytro    119.00 UAH
+2026-04-01 Shopping
+    expenses:food:groceries                108
     assets:bank:privat:universal
 
-2026-04-01 NETLIUKH DMYTRO
-    assets:bank:privat:universal  120.00 UAH
-    expenses:gifts:dmytro   -120.00 UAH
-
-2026-04-01 MAGAZIN TOR-25
-    expenses:food:groceries  108.00 UAH
+2026-04-01 Shopping (staff for Netlukh)
+    assets:receivable:other              119
     assets:bank:privat:universal
 
-2026-04-01 POKUPKA DISKONT
-    expenses:food:groceries  337.00 UAH
+2026-04-01 Return. staff for Netlukh
+    assets:bank:privat:universal           120
+    assets:receivable:other                -119
+    income:gifts                           -1  ;; Netlukh returned 20, but 1 is a gift for me
+
+2026-04-01 Dinning
+    expenses:food:dining                     129  ; Lviv Croisants
     assets:bank:privat:universal
 
-2026-04-01 LVIVSKI KRUASANY
-    expenses:food:dining     64.00 UAH
+2026-04-01 Coffee
+    expenses:food:dining                     67  ; Lviv Croisants
     assets:bank:privat:universal
+
+2026-04-02 * Water
+    expenses:food:groceries                    39
+    expenses:food:groceries                    4
+    assets:bank:mono:black
+
+2026-04-02 Shopping
+    expenses:food:groceries                262.40
+    assets:bank:privat:universal
+
+2026-04-03 Coffee
+    expenses:food:dining                     64  ; Lviv Croisants
+    assets:bank:privat:universal
+
+2026-04-03 PROM (Capacitor)
+    expenses:printers:red_blow                     174
+    liabilities:loans:pumb_installments
+
+2026-04-03 Kyivstar
+    expenses:fixed:cell                11
+    expenses:fixed:cell                339
+    liabilities:loans:pumb_installments
+
+2026-04-04 Shopping
+    expenses:food:groceries                377.80  ; Rukavichka
+    expenses:food:groceries                154.00
+    expenses:food:groceries                48.00
+    liabilities:loans:pumb_installments
+
+2026-04-04 * Transfer
+    assets:bank:privat:universal                  27.62
+    assets:bank:privat:inter
+
+2026-04-04 NovaPost
+    expenses:services:delivery             81
+    assets:bank:privat:universal
+
+2026-04-05 Dinning
+    expenses:food:dining                     192  ; IQ Pizza
+    liabilities:loans:pumb_installments
+
+2026-04-05 Shopping
+    expenses:food:groceries                76.00
+    expenses:food:groceries                538.30  ; ATB
+    liabilities:loans:pumb_installments
+
+2026-04-05 Taxi
+    expenses:transport:taxi                 153
+    liabilities:loans:pumb_installments
+
+2026-04-07 Coffee
+    expenses:food:dining                     64  ; Lviv Croisants
+    liabilities:loans:pumb_installments
+
+2026-04-07 Shopping
+    expenses:food:groceries                53.00
+    expenses:food:groceries                65.00
+    liabilities:loans:pumb_installments
+
+    
+2026-04-08 Exchange dollar to hryvnia
+    assets:cash:currency                -100 USD @ 41.7
+    assets:cash:wallet                  4170
+
+2026-04-08 A1587
+    assets:bank:privat:salary                21391.80
+    income:salary:army
+
+2026-04-08 Transfer
+    assets:bank:privat:inter            1900
+    assets:bank:privat:salary            -1900
+
+2026-04-08 Transfer
+    assets:bank:privat:universal            16490
+    assets:bank:privat:salary
+
+2026-04-08 Transfer
+    assets:cash:wallet                   3000
+    assets:bank:privat:salary            -3000
+
+2026-04-08 Flat rent
+    expenses:home:rent            7000
+    assets:cash:wallet           -7000
+
+2026-04-08 BD Gift for Christina
+    expenses:gifts:toys                   890  ; dodosocks
+    assets:bank:privat:universal         -890
+
+2026-04-08 Installment payment
+    liabilities:loans:pumb_installments             2990.9
+    expenses:taxes:transfer                         14.95
+    assets:bank:privat:universal                    -3005.85
+    
+2026-04-08 Shopping
+    expenses:food:groceries                615.30
+    assets:bank:privat:universal
+
+2026-04-08 * Google Cloud
+    expenses:fixed:subs:media                28.82  ; (Gemini tokens)
+    assets:bank:privat:inter               
+
+2026-04-08 Google One
+    expenses:fixed:subs:ai            114.99
+    assets:bank:privat:inter         -114.99
+
+2026-04-09 * Google Cloud
+    expenses:fixed:subs:media                438.60  ; (Gemini tokens)
+    assets:bank:privat:inter
+
+2026-04-09 Return money to Samson
+    liabilities:borrowings:samson             3000
+    expenses:taxes:transfer                   15
+    assets:bank:privat:universal
+
+2026-04-10 Microsoft
+    expenses:fixed:subs:soft             269
+    assets:bank:privat:inter            -269
+
+2026-04-10 Shopping
+    expenses:food:groceries                111  ; SIM23
+    assets:bank:privat:universal
+
+2026-04-10 Epicentr
+    expenses:household:tools              1447.50
+    assets:bank:privat:universal
+
+2026-04-10 * Inzhur REIT dividends
+    assets:investments:inzhur:cash            9094.58
+    income:dividends
+
+2026-04-10 * Inzhur REIT dividends
+    expenses:taxes:dividends                  1273.24
+    assets:investments:inzhur:cash
+
+2026-04-10 * Inzhur REIT dividends
+    assets:investments:inzhur:REIT                  736 INZHUR_REIT
+    assets:investments:inzhur:cash                  -7823.09
+
+P 2026-04-10 INZHUR_REIT 10.629198
+
+2026-04-11 Vodafone
+    expenses:fixed:cell                320
+    assets:bank:privat:inter          -320
+
+2026-04-11 Shopping
+    expenses:food:groceries                275.90  ; Rukavichka
+    assets:bank:privat:universal
+
+2026-04-11 Pharmacy
+    expenses:health:pharmacy                 458.10
+    assets:bank:privat:universal
+
+2026-04-11 Shopping
+    expenses:food:groceries                547  ; Auchan
+    assets:bank:privat:universal
+
+2026-04-11 Shopping
+    expenses:food:groceries                65
+    assets:bank:privat:universal
+
+2026-04-11 * Water
+    expenses:food:groceries                    47
+    assets:bank:privat:universal              -47
+
+2026-04-13 Shopping
+    expenses:food:groceries                187.90  ; Rukavichka
+    assets:bank:privat:universal
+    
+2026-04-13 Shopping
+    expenses:food:groceries                182.20  ; ATB
+    assets:bank:privat:universal
+
+2026-04-14 Shopping
+    expenses:food:groceries                139.90  ; Rukavichka
+    assets:bank:privat:universal
+
+2026-04-14 Shopping
+    expenses:food:groceries                128.00  ; SIM23
+    assets:bank:privat:universal
+
+2026-04-14 Netflix
+    expenses:fixed:subs:media           384.1
+    assets:bank:privat:inter           -384.1
+
+2026-04-15 NovaPost
+    expenses:services:delivery             30  ; storing gift fot Christina
+    assets:bank:privat:universal
+
+2026-04-15 Shopping (Filament for 3D printer. Piletskyi)
+    assets:receivable:other              424
+    expenses:taxes:transfer              3
+    assets:bank:privat:universal
+
+2026-04-15 BD Gift for Christina
+    expenses:gifts:toys                   1565  ; Flowers
+    assets:bank:privat:universal
+
+2026-04-15 Shopping (Filament for 3D printer. To the army)
+    assets:bank:privat:universal         2000
+    assets:receivable:other
+
+2026-04-16 * Transfer
+    assets:bank:mono:black               2300.00
+    expenses:taxes:transfer                 11.50
+    assets:bank:privat:universal
+
+2026-04-16 Installment payment
+    assets:bank:mono:black                         -1329.02  ; headphones gift for Christina
+    assets:bank:mono:black                         -872.25  ; protein
+    liabilities:loans:mono_installments
+
+2026-04-16 Delivery (Filament for 3D printer. Piletskyi)
+    assets:receivable:other              100
+    assets:bank:privat:universal
+
+2026-04-17 Insurance
+    expenses:fixed:insurance                  50
+    assets:bank:privat:universal             -50
+
+2026-04-17 Delivery (Filament for 3D printer. Piletskyi)
+    assets:bank:privat:universal         510
+    expenses:donations:army              14
+    assets:receivable:other
+
+2026-04-17 Shopping (Filament for 3D printer. To the army)
+    assets:receivable:other              2000
+    expenses:donations:army              50
+    expenses:taxes:transfer              1
+    expenses:donations:army              160.25  ; NovaPost delivery
+    assets:bank:privat:universal
+
+2026-04-18 Epicentr
+    expenses:household:tools              340
+    assets:bank:privat:universal
+
+2026-04-18 Shopping
+    expenses:food:groceries                501.19  ; ATB
+    assets:bank:privat:universal
+
+2026-04-18 EpicGames android game
+    expeses:leisure:games:digital           39.99
+    assets:bank:privat:inter               -39.99
+
+2026-04-18 Dinning
+    expenses:food:dining                     565  ; IQ Pizza
+    liabilities:loans:pumb_installments
+
+2026-04-18 Shopping
+    expenses:food:groceries                528.30  ; ATB
+    liabilities:loans:pumb_installments
+
+2026-04-19 Epicentr
+    expenses:household:tools              230  ;  LED strip. Fitolamp
+    assets:bank:privat:universal
+
+2026-04-19 Shopping
+    expenses:food:groceries                56.80  ; ATB
+    assets:bank:privat:universal
+
+2026-04-19 * Water
+    expenses:food:groceries              48
+    assets:bank:mono:black              -48
+
+2026-04-21 * Transfer
+    assets:bank:privat:universal         150
+    assets:bank:privat:inter
+
+2026-04-21 NovaPost
+    expenses:services:delivery             100  ; LED strip. Fitolamp
+    assets:bank:privat:universal
+
+2026-04-21 * Ticket
+    expenses:transport:public                 25
+    assets:cash:wallet
+
+2026-04-22 Pharmacy
+    assets:receivable:other              97.70
+    assets:bank:privat:universal
+
+2026-04-22 Cartographer 3D
+    expenses:printers:red_blow                     1793  ; Cartographer V4
+    expenses:printers:red_blow                     984.86  ; CNC Toolhead mount
+    liabilities:loans:pumb_installments            -2777.86  ; Cheaper on 1.14 due to conversation
+
+2026-04-22 Aliexpress
+    expenses:printers:red_blow                     158.75  ; PTFE fitting. Order ID: 3071796208325577
+    expenses:printers:red_blow                     99.70  ; nozzle wiper. Order ID: 3071796208305577
+    expenses:printers:red_blow                     773.91  ; BTT SFS V2. Order ID: 3071796208285577
+    expenses:printers:red_blow                     172.01  ; AHT30. Order ID: 3071796208265577
+    liabilities:loans:pumb_installments            -1204.37  ; Cheaper on 0.29 due to conversation
+
+2026-04-22 Shopping
+    expenses:food:groceries                364.47  ; Rukavichka
+    expenses:food:groceries                29.00  ; Sim23
+    expenses:food:groceries                38.00  ; Sim23
+    expenses:food:groceries                51.00
+    liabilities:loans:pumb_installments
+
+2026-04-23 Shopping
+    expenses:food:groceries                258.00  ; Sim23
+    liabilities:loans:pumb_installments
+
+2026-04-23 Pharmacy (Pharmacy for Chrystina)
+    assets:bank:privat:universal         370
+    assets:receivable:other
+
+2026-04-24 Pharmacy (Pharmacy for Chrystina)
+    assets:receivable:other              61.10  ; Pharmacy BAM
+    assets:receivable:other              344.53  ; Pharmacy Znachar
+    assets:bank:privat:universal
+
+2026-04-24 Pharmacy (Pharmacy and groceries for Chrystina)
+    assets:bank:privat:universal         500
+    assets:receivable:other
+
+2026-04-24 * A1587
+    assets:bank:privat:salary        21475.31  ; Ozdorovlennia
+    income:salary:army              -21475.31
+
+2026-04-24 * Transfer
+    assets:bank:privat:inter                1900
+    assets:bank:privat:salary              -1900
+
+2026-04-24 Aliexpress
+    expenses:printers:red_blow                     47.9  ; 5.556mm Steel ball. Order ID: 3071910119395577
+    expenses:printers:red_blow                     101.99  ; PTFE fitting. Order ID: 3071910119375577
+    expenses:printers:red_blow                     253.13  ; Olfa KB4-F-5 blade. Order ID: 3071910119485577
+    expenses:printers:red_blow                     60.38   ; Screw M2X10mm. Order ID: 3071910119465577
+    expenses:printers:red_blow                     212.69   ; Screw M3X18mm, M2.5x16mm. Order ID: 3071910119435577
+    expenses:printers:red_blow                     193.12  ; micro switch D2F. Order ID: 3071910119415577
+    liabilities:loans:pumb_installments            -869.21  ; More expensive on 3.23 due to conversation
+
+2026-04-24 Pharmacy (Pharmacy for Chrystina)
+    assets:receivable:other              314.43  ; Pharmacy 3i
+    liabilities:loans:pumb_installments
+
+2026-04-24 Shopping
+    expenses:food:groceries                163.00  ; Sim23
+    expenses:food:groceries                220.42  ; Rukavichka
+    liabilities:loans:pumb_installments
+
+2026-04-25 Shopping (Product for Christina)
+    assets:receivable:other                52.24  ; Sim23
+    expenses:food:groceries                39.26  ; Sim23
+    assets:bank:privat:universal           -91.50
+
+2026-04-25 Transfer
+    assets:cash:wallet                   7300
+    assets:bank:privat:salary            -7300
+
+2026-04-25 Transfer
+    liabilities:loans:pumb_installments             5000
+    assets:cash:wallet
+
+2026-04-25 * Transfer
+    assets:bank:privat:universal             5227.11
+    assets:bank:privat:salary
+
+2026-04-25 Shopping
+    assets:receivable:other                956.56  ; Silpo
+    assets:bank:privat:universal
+
+2026-04-25 * Water
+    expenses:food:groceries              48
+    assets:bank:mono:black              -48
